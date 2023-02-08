@@ -14,12 +14,3 @@ class AboutPageView(TemplateView):
 def homepage_view(request):
     return  HttpResponse('Hello World')
 
-def index_view(request):
-    return render(request, 'index.html')
-
-
-def alijon(request):
-    return HttpResponse("<a href='https://t.me/Settings'><image src='https://yandex.ru/images/search?pos=0&from=tabbar&img_url=http%3A%2F%2Fb-h-c.ru%2Flocal%2Ftemplates%2Fbrickhouse-new%2Fimg%2Ftg-main.png&text=telegram&rpt=simage&lr=10335'></a>")
-
-def github(request):
-    return HttpResponse("<h1><a href='http://github.com'> github </h1>")
